@@ -114,7 +114,8 @@
 
     & &__first-button{
         margin-right: 16px;
-        width: 170px;
+        max-width: 170px;
+        padding: 0 16px;
         height: 56px;
         background: #FFFFFF;
         border-radius: 444px;
@@ -131,7 +132,8 @@
     }
 
     & &__second-button{
-        width: 232px;
+        max-width: 232px;
+        padding: 0 30px;
         height: 56px;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(4px);
@@ -220,6 +222,21 @@
 
 
 
+    }
+
+    @media (max-width: 340px) {
+        & &__button-elements{
+            img{
+                display: none;
+            }
+        }
+    }
+    @media (max-width: 290px) {
+        & &__main-section-image{
+            img{
+                width: 200px;
+            }
+        }
     }
 
     
