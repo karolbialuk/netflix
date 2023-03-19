@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import mainImage from "../../../../assets/images/header-main-image.png";
-import logo from "../../../../assets/images/NETFLIX.png";
+import logo from "../../../../assets/images/netflix.png";
 import play from "../../../../assets/images/play.png";
 import infoCircle from "../../../../assets/images/info-circle.png";
 
